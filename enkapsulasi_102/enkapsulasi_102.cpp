@@ -13,7 +13,7 @@ public:
 	}
 };
 
-int main() {				
+int main() {				//main program
 	remoteLampu lampuRumah;
 
 	lampuRumah.setSaklarNo(0, "Lampu Teras Rumah");
