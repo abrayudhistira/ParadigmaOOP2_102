@@ -30,7 +30,7 @@ public:
 	}
 };
 
-class budi: public pekerja, public pelajar {
+class budi: public pekerja, public pelajar {			//class budi yang diturunkan secara publik dari class pekerja maupun class pelajar
 public:
 
 	budi(int pUmur) :
