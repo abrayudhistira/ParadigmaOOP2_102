@@ -12,7 +12,7 @@ public:
 	}
 };
 
-class pekerja : public orang {
+class pekerja : public orang {			//class pekerja yang diturunkan secara publik dari class orang
 public:
 
 	pekerja(int pUmur) :
