@@ -21,7 +21,7 @@ public:
 	}
 };
 
-class pelajar : virtual public orang {
+class pelajar : virtual public orang {				//class pelajar yang diturunkan secara virtual dan publik dari class orang
 public:
 	pelajar(int pUmur) :
 		orang(pUmur)
