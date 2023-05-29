@@ -22,7 +22,7 @@ public:
 	}
 };
 
-class pelajar : public orang {
+class pelajar : public orang {					//class pelajar yang diturunkan secara publik dari class orang
 public:
 
 	pelajar(int pUmur) :
