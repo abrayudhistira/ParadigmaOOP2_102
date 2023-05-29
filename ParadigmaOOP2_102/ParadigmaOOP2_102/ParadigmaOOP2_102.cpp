@@ -31,8 +31,7 @@ public:
 		cout << "pelajar dibuat\n" << endl;
 	}
 };
-
-class budi : public pekerja, public pelajar {
+class budi : public pekerja, public pelajar {     	//class budi diturunkan secara publik dari class pekerja maupun class pelajar			
 public:
 
 	budi(int pUmur) :
@@ -42,6 +41,7 @@ public:
 		cout << "Budi dibuat\n" << endl;
 	}
 };
+
 
 int main() {
 	budi a(12);
