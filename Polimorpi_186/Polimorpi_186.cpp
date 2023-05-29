@@ -23,7 +23,7 @@ public:
 	}
 };
 
-int main() {
+int main() {										//main program
 	seseorang* obyek;
 	joko a;
 	lia b;
