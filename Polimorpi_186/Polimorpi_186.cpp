@@ -16,7 +16,7 @@ public:
 	}
 };
 
-class lia :public seseorang {
+class lia :public seseorang {					//class lia yang diturunkan secara virtual dan publik dari class seseorang
 public:
 	void pesan() {
 		cout << "Pesan Dari Lia" << endl;
