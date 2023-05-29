@@ -9,7 +9,7 @@ public:
 	// }
 };
 
-class joko :public seseorang {
+class joko :public seseorang {					//class joko yang diturunkan secara virtual dan publik dari class seseorang
 public:
 	void pesan() {
 		cout << "Pesan Dari Joko" << endl;
