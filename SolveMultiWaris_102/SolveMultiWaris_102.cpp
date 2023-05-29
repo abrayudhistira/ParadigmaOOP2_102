@@ -12,7 +12,7 @@ public:
 	}
 };
 
-class pekerja : virtual public orang {
+class pekerja : virtual public orang {					//class pekerja yang diturunkan secara virtual dan publik dari class orang
 public:
 	pekerja(int pUmur) :
 		orang(pUmur)
