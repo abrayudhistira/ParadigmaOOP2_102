@@ -42,7 +42,7 @@ public:
 	}
 };
 
-int main() {
+int main() {										//main program
 	budi a(12);
 
 	return 0;
