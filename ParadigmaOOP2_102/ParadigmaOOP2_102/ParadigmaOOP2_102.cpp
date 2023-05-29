@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class orang {
+class orang {							//class orang
 public:
 	int umur;
 
@@ -24,6 +24,7 @@ public:
 
 class pelajar : public orang {
 public:
+
 	pelajar(int pUmur) :
 		orang(pUmur)
 	{
@@ -33,6 +34,7 @@ public:
 
 class budi : public pekerja, public pelajar {
 public:
+
 	budi(int pUmur) :
 		pekerja(pUmur),
 		pelajar(pUmur)
@@ -40,3 +42,9 @@ public:
 		cout << "Budi dibuat\n" << endl;
 	}
 };
+
+int main() {
+	budi a(12);
+
+	return 0;
+}
